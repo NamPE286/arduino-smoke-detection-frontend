@@ -31,6 +31,7 @@
         box-shadow: 0px 0px 5px #999999;
         border-radius: 15px;
         width: fit-content;
+        background-color: white;
     }
     a {
         color: black;
