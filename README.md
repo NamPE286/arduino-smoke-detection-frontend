@@ -1,3 +1,5 @@
+Before cloning this repo, please setup backend server first https://github.com/NamPE286/arduino-smoke-detection-API
+
 # Getting Started
 Create .env file with the following variables
 ```
