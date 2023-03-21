@@ -30,13 +30,14 @@
     .detailWrapper {
         box-shadow: 0px 0px 5px #c2c2c2;
         height: fit-content;
-        width: calc(100% - 40px);
+        width: 100%;
+        margin-left: auto;
         padding: 15px;
         border-radius: 15px;
     }
     .statusDot {
-        height: 20px;
-        width: 20px;
+        min-height: 20px;
+        min-width: 20px;
         border-radius: 50%;
         margin-top: auto;
         margin-bottom: auto;
