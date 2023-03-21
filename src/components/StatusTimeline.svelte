@@ -33,7 +33,7 @@
 
 <div class="wrapper">
     <div class="cellWrapper">
-        {#each data.reverse() as item, index}
+        {#each data as item, index}
             <a
                 href={`/detail/${getDayTimestamp(index)}`}
                 title={getDateString(getDayTimestamp(index))}
@@ -78,7 +78,6 @@
         display: flex;
         max-width: 100%;
         overflow-x: auto;
-        flex-direction: row-reverse;
     }
     .labelWrapper {
         display: flex;
