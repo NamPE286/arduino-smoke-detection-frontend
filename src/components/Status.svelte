@@ -12,7 +12,7 @@
                     /></svg
                 >
             </div>
-            <h1>Nồng độ khói <span style="color: limegreen">thấp</span></h1>
+            <h1>Nguy cơ cháy nổ <span style="color: limegreen">thấp</span></h1>
         </div>
     {/if}
     {#if status == 1}
@@ -24,7 +24,7 @@
                     /></svg
                 >
             </div>
-            <h1>Nồng độ khói <span style="color: orange">báo động</span></h1>
+            <h1>Nguy cơ cháy nổ <span style="color: orange">cao</span></h1>
         </div>
     {/if}
     {#if status == 2}
@@ -36,7 +36,7 @@
                     /></svg
                 >
             </div>
-            <h1>Nồng độ khói <span style="color: red">rất cao</span></h1>
+            <h1>Nguy cơ cháy nổ <span style="color: red">nguy hiểm</span></h1>
         </div>
     {/if}
 </div>

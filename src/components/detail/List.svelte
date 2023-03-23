@@ -14,7 +14,7 @@
 {/if}
 
 {#each data as item, index}
-    <Status timestamp={Date.parse(item.created)} detail={`Nồng độ khói chuyển thành ${getStatusColor(item.status)}`} status={item.status}/>
+    <Status timestamp={Date.parse(item.created)} detail={`Nguy cơ cháy nổ chuyển sang trạng thái ${getStatusColor(item.status)}`} status={item.status}/>
 {/each}
 
 <style lang='scss'>
